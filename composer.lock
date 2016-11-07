@@ -1,0 +1,119 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "e65e73b3baa2d1466200cce2749d8d27",
+    "content-hash": "1aaf415c80b0f6e6e367120e6eb8c91d",
+    "packages": [
+        {
+            "name": "symfony/yaml",
+            "version": "v3.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/yaml.git",
+                "reference": "7ff51b06c6c3d5cc6686df69004a42c69df09e27"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/7ff51b06c6c3d5cc6686df69004a42c69df09e27",
+                "reference": "7ff51b06c6c3d5cc6686df69004a42c69df09e27",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Yaml\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Yaml Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-10-24 18:41:13"
+        },
+        {
+            "name": "timoschlueter/php-runtastic",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/timoschlueter/php-runtastic.git",
+                "reference": "db6d340219b4211e433ef4c6d975b375cc1f36b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/timoschlueter/php-runtastic/zipball/db6d340219b4211e433ef4c6d975b375cc1f36b1",
+                "reference": "db6d340219b4211e433ef4c6d975b375cc1f36b1",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Runtastic\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Timo Schlueter",
+                    "email": "timo.schlueter@me.com"
+                },
+                {
+                    "name": "Manuel Garcia",
+                    "email": "mgarciadelojo@gmail.com"
+                }
+            ],
+            "description": "It is a class to gain easy access to Runtastic (www.runtastic.com) activity data via PHP. This is a very dirty approach since Runtastic doesn't offer an official API.",
+            "keywords": [
+                "api",
+                "runtastic",
+                "sports",
+                "workouts"
+            ],
+            "time": "2016-01-18 06:30:53"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "timoschlueter/php-runtastic": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": []
+}
