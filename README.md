@@ -4,7 +4,7 @@ composer install
 create un fichier parameters/account.yml
 
 ```yml
-account:
+loginData:
   username: ~
   password: ~
 ```
